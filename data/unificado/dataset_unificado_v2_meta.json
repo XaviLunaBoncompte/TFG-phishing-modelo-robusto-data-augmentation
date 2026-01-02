@@ -1,0 +1,39 @@
+{
+    "version": "v2",
+    "generated_at": "2026-01-01T22:27:49",
+    "random_state": 42,
+    "total_samples": 16127,
+    "samples_by_label": {
+        "0": 9000,
+        "1": 7127
+    },
+    "samples_by_vector": {
+        "url": 6000,
+        "email": 6000,
+        "sms": 4127
+    },
+    "samples_by_vector_and_label": {
+        "email__0": 3000,
+        "email__1": 3000,
+        "sms__0": 3000,
+        "sms__1": 1127,
+        "url__0": 3000,
+        "url__1": 3000
+    },
+    "classes_definition": {
+        "label": {
+            "0": "legitimo",
+            "1": "phishing/smishing"
+        }
+    },
+    "sources": [
+        "kaggle_email",
+        "mendeley",
+        "phiusiil"
+    ],
+    "config": {
+        "cantidad_x_vector": 3000,
+        "orig_dir": "C:\\TFG\\data\\orig",
+        "unific_dir": "C:\\TFG\\data\\unificado"
+    }
+}

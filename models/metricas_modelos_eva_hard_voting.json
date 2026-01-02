@@ -1,0 +1,35 @@
+{
+    "version": "eva_hard_voting",
+    "generated_at": "2026-01-01T23:56:13",
+    "random_state": 42,
+    "modelos": {
+        "SVM": {
+            "accuracy": 0.976751394916305,
+            "precision": 0.9768206855240745,
+            "recall": 0.9760339722611813,
+            "F1-macro": 0.9764154874654092,
+            "F1-weighted": 0.9767417975605652,
+            "model_path": "C:\\TFG\\models\\modelo_svm_eva_hard_voting.joblib"
+        },
+        "MLP": {
+            "accuracy": 0.9739615623062616,
+            "precision": 0.973951602834223,
+            "recall": 0.9732425588281128,
+            "F1-macro": 0.9735873258463764,
+            "F1-weighted": 0.973951816565119,
+            "model_path": "C:\\TFG\\models\\modelo_mlp_eva_hard_voting.joblib"
+        },
+        "Ensamble": {
+            "accuracy": 0.9748915065096094,
+            "precision": 0.9761164906948817,
+            "recall": 0.9731287985039738,
+            "F1-macro": 0.9744731283825625,
+            "F1-weighted": 0.9748519986477333,
+            "model_path": "C:\\TFG\\models\\modelo_ens_eva_hard_voting.joblib"
+        }
+    },
+    "dispersion": {
+        "train": 0.9979647256907943,
+        "test": 0.9980515396198609
+    }
+}

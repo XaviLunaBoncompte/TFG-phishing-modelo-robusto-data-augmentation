@@ -1,0 +1,44 @@
+{
+    "run_id": "20260102_113952",
+    "version": "v2_robusto",
+    "random_state": 42,
+    "vectorizacion": {
+        "metodo": "tfidf",
+        "ngram_range": [
+            1,
+            2
+        ],
+        "min_df": 5,
+        "max_df": 0.9,
+        "max_features": 50000
+    },
+    "evasion": {
+        "nivel": "fuerte",
+        "prob_semantica": 0.1,
+        "prob_template": 0.6,
+        "prob_perturbacion": 0.8,
+        "num_muestras_semantica": 50
+    },
+    "ejecucion": {
+        "inicio": "2026-01-02T11:39:52",
+        "fin": "2026-01-02T11:40:57",
+        "duracion": 65
+    },
+    "datos": {
+        "train_size": 12900,
+        "test_size": 3226,
+        "x_train_shape": [
+            18600,
+            33687
+        ],
+        "x_test_shape": [
+            3226,
+            33687
+        ]
+    },
+    "modelos": {
+        "svm_path": "C:\\TFG\\models\\modelo_svm_v2_robusto.joblib",
+        "mlp_path": "C:\\TFG\\models\\modelo_mlp_v2_robusto.joblib",
+        "ens_path": "C:\\TFG\\models\\modelo_ens_v2_robusto.joblib"
+    }
+}
