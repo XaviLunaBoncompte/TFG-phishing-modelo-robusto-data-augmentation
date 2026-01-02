@@ -1,2 +1,5 @@
+install filter=lfs diff=lfs merge=lfs -text
+/models/*.joblib filter=lfs diff=lfs merge=lfs -text
+/data/orig/*.csv filter=lfs diff=lfs merge=lfs -text
 models/*.joblib filter=lfs diff=lfs merge=lfs -text
 data/orig/*.csv filter=lfs diff=lfs merge=lfs -text
