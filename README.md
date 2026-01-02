@@ -76,7 +76,12 @@ El presente trabajo tambien cuenta con una serie de notebooks con Jupyter, los c
 Una vez seleccioando el Kernel, simplemente hay que ejecutar todo o celda por celda. En caso de no cargar hay que interrumpir y reinciar el kernel.
 
 
+.: SOLUCION A POSIBLES ERRORES :.
 
+Si en algun momento el archivo cons_dataset_unificado.py da error al contruir la unificacion por no econtrar "label", se debe a que LFS no ha importado correctamente los CSVs grandes de los datasets originales. Hay que ejecutar en la raiz del proyecto:
+
+- git lfs install
+- git lfs pull
 
 
 
